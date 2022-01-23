@@ -1,0 +1,115 @@
+.hidden {
+    display: none;
+}
+
+body{
+    background-attachment: fixed;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+    background-color: rgba(238, 234, 243, 0.9);
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+#quote {
+    padding: 5px 0;
+    font-size: 30px;
+    color: rgb(168, 119, 201);
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+#clock {
+    top: 50%;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(to right, #F7CAC9, #92A8D1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#loginput {
+    width: 220px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: rgb(221, 212, 230);
+    border: 3px solid rgb(170, 134, 212);
+    border-radius: 5px;
+}
+
+#btn {
+    width: 80px;
+    height: 46px;
+    padding: 0;
+    background-color: rgb(221, 212, 230);
+    border: 3px solid rgb(170, 134, 212);
+    border-radius: 5px;
+}
+
+#greeting {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;}
+
+#todo-form {
+    padding: 10px;
+    margin: 0;
+}
+
+#todoinput {
+    width: 300px;
+    height: 30px;
+    padding: 0 15px;
+    border-radius: 5px;
+    background-color: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom : 3px solid black;
+}
+
+#todo-list {
+    width: 40%;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+li span {
+    width: 300px;
+    text-align: left;
+}
+
+.btnX {
+    background-color: inherit;
+    border: none;
+    padding: 3px 5px;
+    font-size: 20px;
+}
+
+#weather {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    padding: 5px 20px 5px 20px;
+    background: linear-gradient(to right, #F7CAC9, #92A8D1);
+    border-radius: 25px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(26, 4, 41);
+}
+
